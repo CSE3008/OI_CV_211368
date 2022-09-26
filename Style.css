@@ -17,6 +17,17 @@
     line-height: 26px;
     padding-bottom: 50px;
   }
+  .full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
   
   .container {
     max-width: 700px;   
@@ -44,4 +55,13 @@
   .right {
     text-align: right;
     width: 60%;
+  }
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+  .name {
+    font-weight: bold;
   }
