@@ -1,2 +1,47 @@
-﻿body {
-}
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;  
+  }
+  
+  body {
+    min-height: 100%;  
+    background: #eee;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  
+  .container {
+    max-width: 700px;   
+    background: #fff;
+    margin: 0px auto 0px; 
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;  
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+  .left,
+  .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .left {
+    width: 39%;
+  }
+
+  .right {
+    text-align: right;
+    width: 60%;
+  }
